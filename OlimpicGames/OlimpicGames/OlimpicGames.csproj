@@ -134,7 +134,7 @@
     <Folder Include="View\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\olympicGamesLogo.png" />
+    <Resource Include="images\olympia.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

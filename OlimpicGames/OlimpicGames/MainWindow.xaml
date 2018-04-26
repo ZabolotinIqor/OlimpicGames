@@ -26,7 +26,10 @@
                 <ColumnDefinition Width="100"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Source="../../images/olympicGamesLogo.png"/>
+            <Grid Grid.Column="0" Background="#FF5E3A">
+                <Image  Source="../../images/olympia.png"/>
+            </Grid>
+
         </Grid>
     </Grid>
 </Window>
