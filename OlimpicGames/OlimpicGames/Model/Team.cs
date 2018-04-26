@@ -12,6 +12,8 @@ namespace OlimpicGames.Model
 
         public string teamName { get; set; }
 
+        public ICollection<Player> players { get; set; }
+
 
     }
 }

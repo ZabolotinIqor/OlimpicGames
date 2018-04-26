@@ -10,12 +10,6 @@ namespace OlimpicGames.Model
     {
         public int Id { get; set; }
 
-        public int idSport { get; set; }
-
-        public int idCountry { get; set; }
-
-        public int idTeam { get; set; }
-
         public string playerName { get; set; }
 
         public string playerSurname { get; set; }
@@ -26,7 +20,13 @@ namespace OlimpicGames.Model
 
         public string playerPhotoUrl{ get; set; }
 
+        public SportType sport { get; set; }
 
+        public Country country { get; set; }
+
+        public Team team { get; set; }
+
+        public ICollection<Result> results { get; set; }
 
     }
 }

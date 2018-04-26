@@ -13,5 +13,7 @@ namespace OlimpicGames.Model
         public string countryName { get; set; }
 
         public string city { get; set; }
-    }
+
+        public ICollection<Player> players { get; set; }
+    }    
 }

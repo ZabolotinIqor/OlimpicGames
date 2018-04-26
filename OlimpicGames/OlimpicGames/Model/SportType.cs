@@ -10,8 +10,10 @@ namespace OlimpicGames.Model
     {
         public int Id { get; set; }
 
-        public int idOlimpicGame { get; set; }
-
         public string sportName { get; set; }
+
+        public ICollection<Player> players { get; set; }
+
+        public OlimpicGame olimpicGame { get; set; }
     }
 }

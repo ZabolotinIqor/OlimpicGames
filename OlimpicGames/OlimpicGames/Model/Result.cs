@@ -12,6 +12,6 @@ namespace OlimpicGames.Model
 
         public int result { get; set; }
 
-        public int idPlayer { get; set; }
+        public Player player { get; set; }
     }
 }

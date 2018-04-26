@@ -16,7 +16,7 @@ namespace OlimpicGames.Model
 
         public bool olimpicType { get; set; }
 
-
+        public ICollection<SportType> sportTypes { get; set; }
 
     }
 }
