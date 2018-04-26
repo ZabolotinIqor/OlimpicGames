@@ -61,6 +61,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Repository\CountryRepository.cs" />
+    <Compile Include="Repository\OlimpicGameRepository.cs" />
+    <Compile Include="Repository\PlayerRepository.cs" />
+    <Compile Include="Repository\ResultRepository.cs" />
+    <Compile Include="Repository\SportTypeRepository.cs" />
+    <Compile Include="Repository\TeamRepository.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -117,7 +123,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Repository\" />
     <Folder Include="Service\" />
     <Folder Include="ViewModel\" />
     <Folder Include="View\" />
