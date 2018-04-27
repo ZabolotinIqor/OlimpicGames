@@ -13,7 +13,7 @@
         TextOptions.TextFormattingMode="Ideal"
         TextOptions.TextRenderingMode="Auto"
         Background="{DynamicResource MaterialDesignPaper}"
-        FontFamily="{DynamicResource MaterialDesignFont}">
+        >
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="60"/>
@@ -31,7 +31,7 @@
                 <Image  Source="../../images/olympia.png"/>
             </Grid>
             <StackPanel Grid.Column="1" Orientation="Horizontal" VerticalAlignment="Center">
-                <Label Content="Olympic Games" FontWeight="Bold" FontSize="15" Style="{StaticResource mainFont}"/>
+                <Label Content="Olympic Games" FontWeight="Bold" FontSize="22" Style="{StaticResource mainFont}"/>
             </StackPanel>
 
         </Grid>
